@@ -1,4 +1,4 @@
-package com.my.poc.springbootdomaindrivendesign;
+package com.my.poc.springboottestsmockito;
 
 import com.my.poc.externaluserservice.ExternalUserService;
 import com.my.poc.externaluserservice.ExternalUserServiceConfig;
