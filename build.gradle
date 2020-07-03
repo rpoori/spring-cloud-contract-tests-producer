@@ -1,6 +1,8 @@
 buildscript {
 	ext {
 		springBootVersion = '2.3.1.RELEASE'
+		springCloudVersion = 'Hoxton.RELEASE'
+		springCloudContractVersion = '2.2.1.RELEASE'
 		lombokVersion = '1.18.10'
 	}
 }
@@ -16,6 +18,7 @@ allprojects {
 
 		dependencies {
 			classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
+			classpath "org.springframework.cloud:spring-cloud-contract-gradle-plugin:${springCloudContractVersion}"
 		}
 	}
 
