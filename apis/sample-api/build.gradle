@@ -13,7 +13,7 @@ dependencies {
 }
 
 bootJar {
-    mainClassName = 'com.my.poc.springboottestsmockito.SpringBootTestsMockitoApplication'
+    mainClassName = 'com.my.poc.springcloudcontracttestsproducer.SpringCloudContractTestsProducerApplication'
 }
 
 bootRun {

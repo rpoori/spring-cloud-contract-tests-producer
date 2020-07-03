@@ -1,4 +1,4 @@
-package com.my.poc.springboottestsmockito;
+package com.my.poc.springcloudcontracttestsproducer;
 
 import com.my.poc.user.GetActiveUsers;
 import com.my.poc.user.User;

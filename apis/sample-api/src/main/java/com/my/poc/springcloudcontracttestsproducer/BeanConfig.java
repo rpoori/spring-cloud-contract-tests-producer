@@ -1,4 +1,4 @@
-package com.my.poc.springboottestsmockito;
+package com.my.poc.springcloudcontracttestsproducer;
 
 import com.my.poc.externaluserservice.ExternalUserService;
 import com.my.poc.externaluserservice.ExternalUserServiceConfig;
