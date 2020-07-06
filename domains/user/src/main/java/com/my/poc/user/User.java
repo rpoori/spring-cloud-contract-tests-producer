@@ -8,5 +8,6 @@ import lombok.Value;
 public class User {
     String id;
     String name;
+    String email;
     String status;
 }

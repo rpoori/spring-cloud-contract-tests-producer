@@ -22,6 +22,7 @@ public class UserInfoResponse {
     public static class UserInfo {
         String id;
         String name;
+        String email;
         String status;
         //Other fields
     }

@@ -14,16 +14,19 @@ org.springframework.cloud.contract.spec.Contract.make {
                 [
                         "id": "user-id-1",
                         "name": "user-name-1",
+                        "email": "user-email-1@test.com",
                         "status": "ACTIVE"
                 ],
                 [
                         "id": "user-id-2",
                         "name": "user-name-2",
+                        "email": "user-email-2@test.com",
                         "status": "ACTIVE"
                 ],
                 [
                         "id": "user-id-3",
                         "name": "user-name-3",
+                        "email": "user-email-3@test.com",
                         "status": "ACTIVE"
                 ]
         ])
