@@ -36,4 +36,26 @@ allprojects {
 	}
 }
 
-defaultTasks 'clean', 'build'
+apply plugin: 'maven'
+
+configurations {
+	mavenUpload
+}
+
+dependencies {
+	mavenUpload "org.apache.maven.wagon:wagon-http:3.3.4"
+}
+
+artifacts {
+	project.configurations.archives.artifacts.clear()
+	archives file: file("./apis/sample-api/build/libs/sample-api-0.0.1-SNAPSHOT-stubs.jar")
+}
+
+uploadArchives {
+	dependsOn(artifacts)
+	repositories.mavenDeployer {
+		repository(url: "https://artifactory-url/artifactory/path-to-archive")
+	}
+}
+
+defaultTasks 'clean', 'build', 'uploadArchives'
